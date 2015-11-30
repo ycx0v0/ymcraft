@@ -3,9 +3,9 @@ MAINTAINER astaxie xiemengjun@gmail.com
 
 RUN go get github.com/astaxie/beego
 
-ADD src /go/src/src
+ADD ymcraft /go/src/ymcraft
 
-WORKDIR /go/src/src
+WORKDIR /go/src/ymcraft
 
 RUN go build
 
